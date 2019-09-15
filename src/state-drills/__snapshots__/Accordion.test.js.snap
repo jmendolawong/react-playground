@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component opens up a clicked section 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+    <p
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component opens up last clicked section after multiple clicks 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+    <p
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component renders empty li without a supplied prop 1`] = `<ul />`;
+
+exports[`Accordion Component renders no sections as active by default 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component renders no sections by default 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
